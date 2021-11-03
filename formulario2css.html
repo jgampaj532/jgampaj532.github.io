@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Formulario HTML</title>
+</head>
+<style>
+	body {background-color:#ffffe0;
+		  background-image:url("fondo.jpg");}
+	h1 {color: royalblue; font-size: 40px;}
+	.form {color:black; background-color: darkseagreen; font-size: 1,5em;}
+	
+	/* Aquí he probado a poner una imagen redonda encima del formulario y además, centrada */
+	
+	.avatar {
+  		vertical-align: middle;
+  		width: 100px;
+  		height: 100px;
+  		border-radius: 50%;
+	}
+
+	.form2 {color:blueviolet; font-size: 20px; background-color:lemonchiffon; font-family: Arial, Helvetica, sans-serif;}
+
+</style>
+<body>
+
+	<br/>
+	<br/>
+
+	<center>
+
+		<img src="logo.png" alt="Avatar" class="avatar"> 
+    
+	</center>
+
+	<br/>
+	<br/>
+
+	<section class="form">
+	
+		<h1> Formulario HTML</h1><br>
+
+		<form action="" method="get">
+  			<label for="fname"><b>Nombre:</b></label>
+  			<input type="text" id="fname" name="fname" autofocus required><br><br>
+  			<label for="email"><b>Correo electrónico:</b></label>
+  			<input type="email" id="email" name="email" required><br><br>
+  			<label for="homepage"><b>URL:</b></label>
+  			<input type="url" id="homepage" name="homepage" placeholder="Escribe la URL de tu página web personal"><br><br>
+  			<label for="fecha"><b>Fecha:</b></label>
+  			<input type="date" id="fecha" name="fecha"><br><br> 
+  			<label for="tiempo"><b>Tiempo:</b></label>
+			<input type="time" id="tiempo" name="tiempo"><br><br> 
+ 			<label for="fechahora"><b>Fecha y hora:</b></label>
+			<input type="datetime-local" id="fechahora" name="fechahora"><br><br>
+ 			<label for="mes"><b>Mes:</b></label>
+			<input type="month" id="mes" name="mes"><br><br> 
+			<label for="week"><b>Semana:</b></label>
+			<input type="week" id="week" name="week"><br><br>
+ 			<label for="num"><b>Número (min -10, máx 10):</b></label>
+			<input type="number" id="num" name="num" min="-10" max="10"><br><br>
+ 			<label for="phone"><b>Teléfono:</b></label>
+			<input type="tel" id="phone" name="phone"><br><br>
+ 			<label for="busq"><b>Término de búsqueda:</b></label>	
+			<input type="search" id="busq" name="busq"><br><br>
+ 			<label for="color"><b>Color:</b></label>
+			<input type="color" id="color" name="color" value="#ffffff"><br><br>       
+  			<input type="submit" value="Enviar">
+		</form>
+		
+	</section>
+	
+	<br/>
+	<hr>
+
+	<section class="form2">
+	
+		<form action="https://educacionadistancia.juntadeandalucia.es/centros/cadiz/pluginfile.php/1181971/assignsubmission_file/submission_files/113405/gracias.html" method="get">
+  			<p><b>Selecciona tu color de pelo:</b></p>
+ 				<input type="radio" id="negro" name="color_pelo" value="Negro">
+  				<label for="negro">Negro</label><br>
+  				<input type="radio" id="rubio" name="color_pelo" value="Rubio">
+  				<label for="rubio">Rubio</label><br>
+  				<input type="radio" id="pelirrojo" name="color_pelo" value="Pelirrojo">
+  				<label for="pelirrojo">Pelirrojo</label><br>
+  				<input type="radio" id="castano" name="color_pelo" value="Castano">
+  				<label for="castano">Castaño</label><br>
+   				<input type="radio" id="blanco" name="color_pelo" value="Blanco">
+  				<label for="blanco">Blanco</label><br><br>
+  				
+  			 <p><b>Selecciona tu nacionalidad:</b></p>
+ 				<input type="radio" id="spanish" name="nacionalidad" value="Español">
+  				<label for="spanish">Español</label><br>
+  				<input type="radio" id="foreigner" name="nacionalidad" value="Extranjero">
+  				<label for="foreigner">Extranjero</label><br><br>
+  				
+  			<p><b>Selecciona tus navegadores:</b><p>
+  				<input type="checkbox" id="nav1" name="nav1" value="Google_Chrome">
+  				<label for="nav1">Google Chrome</label><br>
+  				<input type="checkbox" id="nav2" name="nav2" value="Mozilla_Firefox">
+  				<label for="nav2">Mozilla Firefox</label><br>
+  				<input type="checkbox" id="nav3" name="nav3" value="Opera">
+  				<label for="nav3">Opera</label><br>
+  				<input type="checkbox" id="nav4" name="nav4" value="Safari">
+  				<label for="nav4">Safari</label><br>
+  				<input type="checkbox" id="nav5" name="nav5" value="Internet_Explorer">
+  				<label for="nav5">Internet Explorer</label><br><br>
+  				
+  		   		<label for="prov"><b>Selecciona tu provincia:</b></label>
+					<select id="prov" name="prov">
+  						<option value="cad">Cádiz</option>
+  						<option value="sev">Sevilla</option>
+  						<option value="mal">Málaga</option>
+  						<option value="huel">Huelva</option>
+  						<option value="gra">Granada</option>
+  						<option value="cor">Córdoba</option>
+  						<option value="jaen">Jaen</option>
+  						<option value="alm">Almeria</option>
+  				</select><br><br>
+  				
+				<label for="pwd"><b>Contraseña:</b></label>
+  				<input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}" title="La contraseña debe constar de 8-16 caracteres. Debe contener además un número, una mayúscula y una minúscula"><br><br>
+  				
+  				<input type="reset" value="Borrar">
+  				<input type="submit" value="Enviar"><br><br>
+ 
+  		</form>
+  	</section>
+  				
+<hr>
+
+<br>
+
+
+
+	<p>Volver a <a href="https://educacionadistancia.juntadeandalucia.es/centros/cadiz/pluginfile.php/1181971/assignsubmission_file/submission_files/113405/index.html">índice </a> </p>
+
+</body>
+</html>
