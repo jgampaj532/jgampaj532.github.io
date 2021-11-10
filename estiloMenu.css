@@ -24,7 +24,7 @@ h1 {text-align: center;}
     color: #333;
 }
 
-.vertical a:hover {color:white; font-weight: bold; background-color: grey; padding: .2em 0.2em .5em;}
+.vertical a:hover {color:white; font-weight: bold; background-color: grey; padding: .2em 0 .2em .5em;}
 
 .horizontal li {
     float:left;
