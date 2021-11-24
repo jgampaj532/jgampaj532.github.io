@@ -1,0 +1,163 @@
+html, body {width: 100%;}
+
+.titulo {
+    
+    color: blue; 
+    font-weight: bold; 
+    font-style: italic; 
+    font-size: 2.5em;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+html {
+    border: 1px solid gray;
+}
+
+
+.estructura {    
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    flex-wrap: nowrap;
+}
+
+.titulonav {border-bottom: 1px solid gray;}
+
+.navegacion {
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 6px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.navegacion a {
+    text-decoration: none;
+    font-size: 0.85em;
+}
+
+.buscador {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+    padding-top: 8px;
+    padding-left: 2px;
+    padding-bottom: 5px;
+    background-color: lightgray;
+
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.secciones {
+    background-color: lightgray;
+}
+
+.secciones2 {
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+h4 {margin-top: -16px;
+    border-top: 1px solid gray;
+    padding-top: 5px;
+    margin-bottom: 0;
+
+}
+
+
+.secciones2 a {
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.secciones2 li {
+    border: 1px solid #7C7C7C;
+    border-left: none;
+    border-bottom: none;
+    margin-left: 0px;
+    padding-left: 3px;
+}
+
+.enlaces {
+    background-color: lightgray;
+    margin-top: 0px;
+    border: 1px solid gray;
+    border-top: 0px;
+    border-left: 0px;
+}
+
+
+.enlaces2 {
+    margin-top: 0px;
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.enlaces2 a {
+    font-size: 0.9em;
+}
+
+.enlaces2 li {
+    margin-left: 0px;
+    padding-left: 3px;
+}
+
+.izquierda {
+    
+    width: 200px;
+}
+
+
+.menumiga a {
+    font-size: 0.95em;
+}
+
+.menumiga {
+    font-size: 0.85em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+.imagentexto img {
+    float: left;
+    margin-right: 10px;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img1 {
+    width: 240px;
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 10px;
+}
+
+.img1 img {
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.pie {
+    font-size: 0.90em;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 15px;
+    border-left: none;
+    border-right: none;
+}
