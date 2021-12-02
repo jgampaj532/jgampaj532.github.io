@@ -1,0 +1,138 @@
+html, body {width: 90%; height: 100%; margin-left: 5%; margin-right: 5%;}
+
+body {background-image: url("imagenes/papel.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.cuerpo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    outline: darkblue 5px solid;
+    padding: 40px;
+    padding-top: 10px;
+}
+
+.titulo {
+    background-color: lightblue;
+    padding: 20px;
+    outline: lightseagreen 2px solid;
+    text-align: center;
+    font-size: 2em;
+    color: darkblue;
+
+}
+
+.texto {
+
+    background-color: lightcyan;
+    border: lightseagreen 2px solid;
+    font-size: 1.1em;
+    color: darkblue;
+    text-align: center;
+}
+
+.rosa {
+    width: 60%;
+    height: 60%;
+    outline: 3px red solid;
+    margin: 20px;
+    border-radius: 50% / 10%;
+}
+
+.lista {
+    float: left;
+    border: solid red 3px;
+    flex-grow: 1;
+    margin: 10px;
+    width: 40%;
+}
+
+.lista ul {
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+
+.lista1 ul {
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.lista1 {
+
+    border: solid red 3px;
+    flex-grow: 1;
+    margin: 10px;
+    width: 40%;
+}
+
+
+.lista li {
+    list-style: square inside;
+    margin-left: -40px;
+    padding: 5px;
+    padding-top: -10px;
+
+}
+
+.lista1 li {
+
+    list-style: square inside;
+    margin-left: -40px;
+    padding: 5px;
+    padding-top: -10px;
+
+}
+
+
+.lista a {
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.lista1 a {
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.tituloh2 {
+    text-align: center;   
+    color:blue; 
+    font-style: italic;
+    text-decoration: underline darkblue;
+    border-bottom: 3px solid red;
+    padding: 0.5em;
+    padding-top: 0.25em;
+}
+
+.lista a:hover{
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+    color: green; 
+}
+
+.lista1 a:hover{
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+    color: green; 
+}
+
+.pie {
+    background-color: lightblue;
+    padding: 1px;
+    outline: lightseagreen 2px solid;
+    text-align: center;
+    font-size: 1em;
+    color: darkblue;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
