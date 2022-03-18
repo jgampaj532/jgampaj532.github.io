@@ -1,0 +1,58 @@
+paises {
+    background-color: lightseagreen;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+pais {
+    text-align: center;
+    width: 44%;
+    border: 4px solid #B22222;
+    display: block;
+    margin: 1em 1em;
+    padding: 1em 1em;
+    }
+
+
+nombre {
+    text-decoration: underline;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 1em;
+    display: block;
+    margin-bottom: 1.5em;
+    }
+
+nombre:hover {
+    color: white;
+    text-decoration: underline;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 1em;
+    display: block;
+    margin-bottom: 1.5em;
+    }    
+
+pais[continente="Europa"] {
+    background-color: lightblue;
+}
+
+pais[continente="Africa"] {
+    background-color: lightcoral;
+}
+
+pais[continente="Asia"] {
+    background-color: lightyellow;
+}
+
+pais[continente="America"] {
+    background-color: lightgreen;
+}
+
+descipcion {
+    font-style: italic;
+}
+
+pais:hover {
+    background-color: hotpink;
+}
