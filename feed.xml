@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+    <item>
+        <title>Entrada HTML</title>
+        <link>https://jgampaj532.github.io/ejerciciotablas.html</link>
+        <description>Este archivo HTML contiene un horario de clase.</description>
+        <author>José Manuel Gamaza</author>
+    </item>
+    <item>
+        <title>Entrada CSS</title>
+        <link>https://jgampaj532.github.io/practicaCSS2.html</link>
+        <description>Este archivo CSS contiene una web con estilo.</description>
+        <author>José Manuel Gamaza</author>
+    </item>
+    <item>
+        <title>Entrada XML con CSS</title>
+        <link>https://jgampaj532.github.io/practicaCSS2.html</link>
+        <description>Este archivo XML contiene una web con CSS.</description>
+        <author>José Manuel Gamaza</author>
+    </item>
+</channel>
+
+</rss>
